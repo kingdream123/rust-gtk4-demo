@@ -399,13 +399,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "my-gtk-app"
-version = "0.1.0"
-dependencies = [
- "gtk4",
-]
-
-[[package]]
 name = "once_cell"
 version = "1.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -522,6 +515,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804"
 dependencies = [
  "proc-macro2",
+]
+
+[[package]]
+name = "rustapp"
+version = "0.1.0"
+dependencies = [
+ "gtk4",
 ]
 
 [[package]]
